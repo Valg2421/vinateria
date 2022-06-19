@@ -1,0 +1,174 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(fondo.jpg);
+}
+#contenedorprincipal{
+    width: 80%;
+    height: auto;
+    background-color: ;
+   margin: auto;
+   padding: 0;
+}
+
+#nav ul li{
+    
+    list-style: none;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+#header p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+#nav{
+    width: 100%;
+    height: 70px;
+    background-color: #003366;
+}
+
+.banner{
+    width: 100%;
+    margin: auto;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+button{
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #003366;
+    color: white;
+    margin: auto;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#nav ul li ul{
+    
+    display: none;
+     
+      background-color: #003366;
+      position: absolute;
+    
+  }
+  
+  #nav ul li:hover ul{
+      display: block;
+      
+  }
+  
+  #nav ul li ul li a:hover{
+  
+  background-color: #222020;
+  }
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 30%;
+    height: auto;
+  background-color: #fff;
+    float: right;
+}
+section img{
+    width: 300px;
+    margin-top: 15px;
+margin-left: 15px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    background-color:#003366;
+    float: left;
+}
+
+footer h2{
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(65, 68, 71);
+   
+}
+
+ul{
+   display: flex;
+}
+
+ #nav a{
+display: inline-block;
+padding: 10px;
+margin-top: 20px;
+margin-left: 15px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+color: aliceblue;
+text-decoration: none;
+
+
+ }
+
+ .ar{
+    width: 250px;
+    height: 350px;
+    color: wheat;
+ 
+ }
+ .ar img{
+    width: 220px;
+    height: 280px;
+ }
+ .btn-comprar{
+ border: none;
+ width: 100px;
+ margin-left: 10px;
+ 
+ }
+
+ section form {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     height: auto;
+     
+ }
+form label{
+   display: block;
+   padding: 10px;
+   font-size: 30px;
+   color: rgb(10, 10, 10);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+ form input{
+  
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+
+  }
